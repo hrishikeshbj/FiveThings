@@ -45,7 +45,7 @@ else{
 
                 }   */
             }
-        } else if (chckbxChecked == true && tgl.isChecked()!=true && str.length()==0) {
+        } else if (chckbxChecked == true && tgl.isChecked() != true && str.length() == 0) {
 
             Toast.makeText(getBaseContext(), "Check the  toggle button and enter a name  for tips", Toast.LENGTH_SHORT).show();
 
@@ -71,7 +71,7 @@ else{
 
         } else {
 
-            Toast.makeText(getBaseContext(), "Check the box , toggle and enter a name  for tips", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getBaseContext(), "Check the box , toggle and enter the name  for tips", Toast.LENGTH_SHORT).show();
 
         }
 
